@@ -1,1 +1,1 @@
-# marketplacelabs
+In this lab you will learn to use Azure Marketplace to deploy various Azure products and services.
