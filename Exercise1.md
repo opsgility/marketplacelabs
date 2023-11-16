@@ -32,6 +32,44 @@ In this exercise, you will learn to purchase and deploy an Azure app.
 
 - 10 minutes
 
+### Setup Microsoft Sentinel
+
+1. In the search bar, search Microsoft Sentinel and select.
+
+    ![](Exercise1Images/media/SelectSentinel.png)
+   
+2. In Microsoft Sentinel, Select **+ Create** to create a workspace.
+
+    ![](Exercise1Images/media/CreateSentinel.png)
+   
+3. Select **Create a new workspace**.
+
+    ![](Exercise1Images/media/CreateWorkspace.png)
+   
+4. Under Resource group, select **Create new**.
+ 
+5. Enter a name for the **Resource group**, select **Ok**.
+
+    ![](Exercise1Images/media/NewRG.png)
+    
+6. Enter a name for the **Workspace**.
+    
+7. Select **Review + create**.
+
+    ![](Exercise1Images/media/nameworkspace.png)
+
+8. Select **Create**.
+
+   ![](Exercise1Images/media/deployworkspace.png)
+
+9. Return to Microsoft Sentinel, select the workspace that you created, and select **Add**.
+
+    ![](Exercise1Images/media/addworkspace.png)
+
+### Summary
+
+In this exercise, you learned to create a workspace and add it to Microsoft Sentinel.
+
 ### Task 1: Purchase and Deploy an Azure Application
 
 1. Expand the portal's left navigation by clicking **Show portal menu** then click **+ Create a resource**.
