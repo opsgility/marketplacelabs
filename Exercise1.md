@@ -60,7 +60,7 @@ In this exercise, you will learn to purchase and deploy an Azure app.
 
 8. Select **Create**.
 
-        ![](Exercise1Images/media/deployworkspace.png)
+   ![](Exercise1Images/media/deployworkspace.png)
 
 ### Task 1: Purchase and Deploy an Azure Application
 
