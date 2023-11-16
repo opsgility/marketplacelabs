@@ -64,6 +64,12 @@ In this exercise, you will learn to purchase and deploy an Azure app.
 
 9. Return to Microsoft Sentinel, select the workspace that you created, and select **Add**.
 
+    ![](Exercise1Images/media/addworkspace.png)
+
+### Summary
+
+In this exercise, you learned to create a workspace and add it to Microsoft Sentinel.
+
 ### Task 1: Purchase and Deploy an Azure Application
 
 1. Expand the portal's left navigation by clicking **Show portal menu** then click **+ Create a resource**.
