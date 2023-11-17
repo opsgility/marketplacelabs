@@ -159,11 +159,7 @@ In this task, you will review the governance for purchasing from the marketplace
 
     ![](Exercise2Images/media/Plans.png)
 
-7. Enter the following information then click **Review + create** then **Create**. 
-
-    ![](Exercise2Images/media/CreateVM.png)
-
-8. You will immediately receive an error that you do not have permissions to purchase on this subscription.
+7. You will immediately receive an error that you do not have permissions to purchase on this subscription.
 
     ![](Exercise1Images/media/marketplaceerror.png)
 
