@@ -89,9 +89,50 @@ In this exercise, you learned how to view a user role in Entra ID.
 
 8. In the Azure portal search bar, enter **Resource groups** and select.
 
+    ![](Exercise1Images/media/rg.png)
 
-9. 
+9. Select the **LabRG** that was created in Exercise 1.
+
+    ![](Exercise1Images/media/labrg.png)
+
+10. Select **Access control (IAM)** under the **LabRG** menu.
+
+    ![](Exercise1Images/media/iam.png)
+
+11. Select **+Add** to open the drop-down menu and select **Add role assignment**.
+
+    ![](Exercise1Images/media/addroleassign.png)
+
+12. Select **Privileged administrator roles** and select the **Contributor** role name.  Select **Next**.
+
+    ![](Exercise1Images/media/contributorrole.png)
+
+13. Within the **Add role assignment** tile, select **+Select members**.  Select the **purchasing** user that was created previously. Choose **Select** to save. 
+
+    ![](Exercise1Images/media/selectmember.png)
+
+14. Select **Review + assign** to continue.
+
+    ![](Exercise1Images/media/reviewassign.png)
+
+15. A message will appear asking if there is a different role that could be assigned. Select **Review + assign** again to confirm this role assignment.
+
+16. Return to **Access control (IAM)** and select **Role assignments** to view the **purchasing** user as a **Contributor**.
+
+    ![](Exercise1Images/media/confirmassignment.png)
+
+17. **Role assignment** is complete.
 
 ### Summary
 
 In this exercise, you created a new user and assigned RBAC permissions to a resource group. 
+
+
+
+### Overview
+
+In this task, you will review the governance for purchasing from the marketplace. 
+
+### Task 3: Attempt to purchase from Marketplace within the Subscription
+
+1. 
