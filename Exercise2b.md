@@ -123,6 +123,8 @@ In this exercise, you learned how to view a user role in Entra ID.
 
 17. **Role assignment** is complete.
 
+18. Log out as the **Global administrator** user and log in with the **Purchasing** user to enable the role assignment.
+
 ### Summary
 
 In this exercise, you created a new user and assigned RBAC permissions to a resource group. 
@@ -133,6 +135,83 @@ In this exercise, you created a new user and assigned RBAC permissions to a reso
 
 In this task, you will review the governance for purchasing from the marketplace. 
 
-### Task 3: Attempt to purchase from Marketplace within the Subscription
+### Task 3: Purchase and Deploy an Azure Virtual Machine in Marketplace with Purchasing user
 
-1. 
+1. Logged in as the **Purchasing** user, Expand the portal's left navigation by clicking **Show portal menu** then click **+ Create a resource**.
+
+    ![](Exercise2Images/media/ExpandPortal.png)
+
+2. In the upper-right of the page, next to **Popular Marketplace products**, select **See more in Marketplace**.
+
+    ![](Exercise2Images/media/SeeMore.png)
+
+3. To view only virtual machine offers, click **Product Type** near the top of the page, then select **Virtual Machine**.
+
+    ![](Exercise2Images/media/FilterVMs.png)
+
+4. You can also filter the results by pricing, operating system, publisher type, and publisher name. You can also select a category on the left of the page to further filter the results.
+
+5. Select the **Windows Server** offer. 
+
+    ![](Exercise2Images/media/WindowsServer.png)
+
+6. Many virtual machine offers have multiple plans, and they can be selected via the **Plan** dropdown. Select **Windows Server 2022 Datacenter** then click **Create**.
+
+    ![](Exercise2Images/media/Plans.png)
+
+7. Enter the following information then click **Review + create** then **Create**. 
+
+    ![](Exercise2Images/media/CreateVM.png)
+
+8. You will immediately receive an error that you do not have permissions to purchase on this subscription.
+
+    ![](Exercise1Images/media/marketplaceerror.png)
+
+**Note**: The **Purchasing** user has a **Contributor** administrator role within the **LabRG** Resource group.  This user can only purchase resources in the **Marketplace** from with the **LabRG** Resource group.  You will do this in the next task.
+
+
+### Task 4: Purchase and Deploy an Azure Virtual Machine in Resource group with Purchasing user
+
+1. Logged in as the **Purchasing** user, go to the **Search** bar and enter **Resource group**. Select **Resource group**.
+
+    ![](Exercise1Images/media/resourcegrp.png)
+
+2. Select the **LabRG** Resource group.
+
+    ![](Exercise1Images/media/labrg1.png)
+
+3. Within the **LabRG**, select **+ Create**.  This will redirect you to the **Marketplace**.
+
+    ![](Exercise1Images/media/labrgcreate.png)
+
+4. To view only virtual machine offers, click **Product Type** near the top of the page, then select **Virtual Machine**.
+
+    ![](Exercise2Images/media/FilterVMs.png)
+
+5. You can also filter the results by pricing, operating system, publisher type, and publisher name. You can also select a category on the left of the page to further filter the results.
+
+6. Select the **Windows Server** offer. 
+
+    ![](Exercise2Images/media/WindowsServer.png)
+
+7. Many virtual machine offers have multiple plans, and they can be selected via the **Plan** dropdown. Select **Windows Server 2022 Datacenter** then click **Create**.
+
+    ![](Exercise2Images/media/Plans.png)
+
+8. Enter the following information then click **Review + create** then **Create**. 
+
+    - Resource group: **(Create new) LabRG**
+
+    - Virtual machine name: **Enter a unique name**
+
+    - Region: **The region closest to you**
+
+    - Username: **demouser**
+
+    - Password/Confirm password: **demo@pass123** 
+
+    ![](Exercise2Images/media/CreateVM.png)
+   
+### Summary
+
+In this exercise, you purchased and deployed an Azure virtual machine in Azure Marketplace. 
