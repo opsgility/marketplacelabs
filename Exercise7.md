@@ -1,4 +1,4 @@
-# Lab Guide
+# Exercise 7 Lab Guide
 
 ## Create a policy assignment to govern location compliance
 
@@ -8,7 +8,7 @@ In this lab you will learn to use Azure Policy to govern resource deployment wit
 
 ### More Information
 
-- [Microsoft Learn Azure Policy Documentation]([https://learn.microsoft.com/en-us/marketplace/azure-marketplace-overview](https://learn.microsoft.com/en-us/azure/governance/policy/overview)
+- [Microsoft Learn Azure Policy Documentation](https://learn.microsoft.com/en-us/azure/governance/policy/overview)
 
 ### Time Estimate
 
